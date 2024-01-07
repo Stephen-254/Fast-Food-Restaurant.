@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 
 body{
     background-color: #D9EDBF;
@@ -9,9 +15,10 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     background-color: red;
 }
+
 
 a{
     text-transform: uppercase;
@@ -19,5 +26,6 @@ a{
 }
 
 li{
+    display: flex;
     list-style-type: none;
 }
