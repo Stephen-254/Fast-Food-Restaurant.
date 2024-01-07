@@ -2,18 +2,22 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+
 }
 
 
 body{
+    background-image: url(Background\ 2.jpg);
     background-color: #D9EDBF;
+    padding-top: 30px;
 }
 
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    background-color: red;
+    background-color: #EDFDFB;
     border-radius: 20px;
+    color: #B9BAB8;
 }
 
 ul{
@@ -28,9 +32,29 @@ li{
     text-transform: uppercase;
 }
 
-h2{
+#logo{
     padding-left: 20px;
     text-transform: uppercase;
+}
+
+.info-container{
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr  1fr;
+    height: 200px;
+    width: 200px;
+}
+
+img{
+    height: auto;
+    height: 200px;
+    width: 200px;
 }
 
 
