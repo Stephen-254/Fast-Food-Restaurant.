@@ -1,0 +1,23 @@
+
+body{
+    background-color: #D9EDBF;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: red;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
