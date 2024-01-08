@@ -10,6 +10,7 @@ body{
     background-image: url(Background\ 2.jpg);
     background-color: #D9EDBF;
     padding-top: 30px;
+    scroll-behavior: smooth;
 }
 
 .nav-bar{
@@ -38,23 +39,44 @@ li{
 }
 
 .info-container{
-    display: flex;
-    height: 200px;
-    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    padding-top: 8%;
+    padding-left: 25%;
+    align-items: center;
+}
+
+.info-min{
+    font-size: 65px;
+    width: auto;
+    color: #EDFDFB;
+    height: auto;
 }
 
 .img-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr  1fr;
-    height: 200px;
-    width: 200px;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    
 }
 
 img{
     height: auto;
-    height: 200px;
-    width: 200px;
+    width: 300px;
+    border-radius: 20px;
+    cursor: pointer;
 }
+
+img:hover{
+    transform: scale(
+        0.8,0.8
+    );
+}
+
+
+
 
 
