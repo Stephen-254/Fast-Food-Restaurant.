@@ -8,18 +8,21 @@
 
 
 body{
-    background-image: url(Background\ 2.jpg);
-    background-color: #D9EDBF;
-    padding-top: 30px;
+    background-color: black;
     scroll-behavior: smooth;
+}
+
+#section-one{
+    background-image: url(Background\ 2.jpg);
+    height: 100vh;
 }
 
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    background-color: #EDFDFB;
+    background-color: black;
     border-radius: 20px;
-    color: #B9BAB8;
+    color: #EDFDFB;
 }
 
 ul{
