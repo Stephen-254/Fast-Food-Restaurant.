@@ -2,6 +2,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: Antipasto Pro;
 
 }
 
@@ -49,10 +50,14 @@ li{
 }
 
 .info-min{
-    font-size: 65px;
+    font-size: 60px;
     width: auto;
     color: #EDFDFB;
     height: auto;
+}
+
+div.info-min > h1 {
+    text-transform: uppercase;
 }
 
 .img-container{
