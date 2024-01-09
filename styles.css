@@ -15,6 +15,7 @@ body{
 #section-one{
     background-image: url(Background\ 2.jpg);
     height: 100vh;
+    overflow: hidden;
 }
 
 .nav-bar{
@@ -78,11 +79,26 @@ img{
     cursor: pointer;
 }
 
-img:hover{
-    transform: scale(
-        0.8,0.8
-    );
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#EDFDFB;
+    text-transform: uppercase;
+    padding-top: 50px;
+    border-bottom: 2px solid whitesmoke;
+    font-size: 40px;
+    border-top: 2px solid whitesmoke;
 }
+
+#section-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+    width: 100%;
+}
+
 
 
 
