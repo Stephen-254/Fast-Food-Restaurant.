@@ -110,6 +110,9 @@ section.section-two > img{
     cursor: pointer;
 }
 
+section.section-two > img:hover{
+    
+}
 
 
 
