@@ -107,28 +107,6 @@ div.img-container > img{
     border-top: 2px solid whitesmoke;
 }
 
-.section-two{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    place-items: center;
-    gap: 100px;
-    height: 100%;
-    width: 100%;
-    background-color: yellow;
-    padding-top: 50px;
-}
-
-section.section-two > img{
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-section.section-two > img:hover{
-    
-}
 
 
 
