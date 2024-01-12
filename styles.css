@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Antipasto Pro;
     color: #EDFDFB;
+    scroll-behavior: smooth;
 
 }
 
@@ -117,11 +118,88 @@ div.img-container > img{
     justify-items: center;
 }
 
+
+
+div.menu-images  img {
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+div.menu-images  img:hover{
+    transform: scale(1.1);
+}
+
 div.menu-images h1 {
     color: #EDFDFB;
 }
 
+#menu-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#EDFDFB;
+    text-transform: uppercase;
+    padding-top: 50px;
+    border-bottom: 2px solid whitesmoke;
+    font-size: 40px;
+    border-top: 2px solid whitesmoke;
+}
 
+
+.testimonials{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.quote-container-one > p{
+    background-color: whitesmoke;
+    height: 450px;
+    width: 450px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    padding: 40px;
+}
+
+.quote-container-one > p:hover{
+    transform: scale(1.1);
+}
+
+.quote-container-two > p{
+    background-color: whitesmoke;
+    height: 450px;
+    width: 450px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.quote-container-two > p:hover{
+    transform: scale(1.1);
+}
+
+.quote-container-three > p{
+    background-color: whitesmoke;
+    height: 450px;
+    width: 450px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.quote-container-three > p:hover{
+    transform: scale(1.1);
+}
 
 
 
