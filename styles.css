@@ -107,15 +107,16 @@ div.img-container > img{
     border-top: 2px solid whitesmoke;
 }
 
-
 .menu-images{
-    position: relative;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(1fr,2);
 }
+
+
+
 div.menu-images h1 {
     color: #EDFDFB;
-    position: absolute;
-    top: 50px;
 }
 
 
