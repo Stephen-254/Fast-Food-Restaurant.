@@ -12,6 +12,7 @@
 body{
     background-color: black;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 #section-one{
@@ -74,14 +75,6 @@ div.info-min > h1 {
     color: goldenrod;
 }
 
-@keyframes rotate {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
 
 .img-container{
     display: grid;
@@ -105,10 +98,10 @@ div.img-container > img{
     color:#EDFDFB;
     text-transform: uppercase;
     padding-top: 50px;
-    border-bottom: 2px solid whitesmoke;
     font-size: 40px;
-    border-top: 2px solid whitesmoke;
+    animation: fade 1.5s infinite;
 }
+
 
 .menu-images{
     display: grid;
@@ -127,6 +120,7 @@ div.menu-images  img {
 
 div.menu-images  img:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 div.menu-images h1 {
@@ -140,9 +134,8 @@ div.menu-images h1 {
     color:#EDFDFB;
     text-transform: uppercase;
     padding-top: 50px;
-    border-bottom: 2px solid whitesmoke;
     font-size: 40px;
-    border-top: 2px solid whitesmoke;
+    animation: header 1.5s infinite;
 }
 
 
@@ -163,6 +156,7 @@ div.menu-images h1 {
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
     padding: 40px;
+    cursor: pointer;
 }
 
 .quote-container-one > p:hover{
@@ -179,6 +173,7 @@ div.menu-images h1 {
     padding: 40px;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .quote-container-two > p:hover{
@@ -195,10 +190,51 @@ div.menu-images h1 {
     padding: 40px;;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .quote-container-three > p:hover{
     transform: scale(1.1);
+}
+
+footer{
+    color:#EDFDFB;
+    padding-top: 50px;
+    border-top: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    height: 900px;
+    width: auto;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes header {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes fade {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 
