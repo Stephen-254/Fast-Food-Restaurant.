@@ -108,6 +108,17 @@ div.img-container > img{
 }
 
 
+.menu-images{
+    position: relative;
+
+}
+div.menu-images h1 {
+    color: #EDFDFB;
+    position: absolute;
+    top: 50px;
+}
+
+
 
 
 
