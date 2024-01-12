@@ -112,6 +112,8 @@ div.img-container > img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(1fr,2);
+    align-items: center;
+    justify-items: center;
 }
 
 div.menu-images h1 {
