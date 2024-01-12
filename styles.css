@@ -87,9 +87,12 @@ div.info-min > h1 {
 div.img-container > img{
     height: auto;
     width: 300px;
-    border-radius: 20px;
+    border-radius: 50%;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    animation: rotator 5s linear infinite;
 }
+
 
 #menu{
     display: flex;
@@ -114,8 +117,7 @@ div.img-container > img{
 
 
 div.menu-images  img {
-    border-radius: 20px;
-    transition: transform 0.3s ease-in-out;
+    border-radius: 50%;
 }
 
 div.menu-images  img:hover{
@@ -157,6 +159,7 @@ div.menu-images h1 {
     transition: transform 0.3s ease-in-out;
     padding: 40px;
     cursor: pointer;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3), -20px -20px 20px rgba(255, 255, 255, 0.3);
 }
 
 .quote-container-one > p:hover{
@@ -174,6 +177,7 @@ div.menu-images h1 {
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3), -20px -20px 20px rgba(255, 255, 255, 0.3);
 }
 
 .quote-container-two > p:hover{
@@ -191,6 +195,7 @@ div.menu-images h1 {
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3), -20px -20px 20px rgba(255, 255, 255, 0.3);
 }
 
 .quote-container-three > p:hover{
@@ -237,9 +242,16 @@ footer{
     }
 }
 
-.contacts{
-    
+@keyframes rotator{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
+
+
 
 div.contacts p{
     color: black;
