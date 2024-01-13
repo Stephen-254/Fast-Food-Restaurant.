@@ -5,7 +5,6 @@
     font-family: Antipasto Pro;
     color: #EDFDFB;
     scroll-behavior: smooth;
-
 }
 
 
@@ -16,10 +15,8 @@ body{
 }
 
 #section-one{
-    background-image: url(Background\ 2.jpg);
     height: 100%;
     overflow: hidden;
-    background-repeat: no-repeat;
 }
 
 .nav-bar{
@@ -87,10 +84,8 @@ div.info-min > h1 {
 div.img-container > img{
     height: auto;
     width: 300px;
-    border-radius: 50%;
+    border-radius: 30px;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-    animation: rotator 5s linear infinite;
 }
 
 
@@ -117,7 +112,8 @@ div.img-container > img{
 
 
 div.menu-images  img {
-    border-radius: 50%;
+    border-radius: 60px;
+    box-shadow: 30px whitesmoke;
 }
 
 div.menu-images  img:hover{
@@ -241,20 +237,6 @@ footer{
         transform: scale(1);
     }
 }
-
-@keyframes rotator{
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@media {
-    
-}
-
 
 
 div.contacts p{
