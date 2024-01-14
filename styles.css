@@ -152,6 +152,15 @@ div.menu-images h1 {
     color: #EDFDFB;
 }
 
+.reservations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+    height: 400px;
+    width: 400px;
+}
+
 #menu-two{
     display: flex;
     align-items: center;
