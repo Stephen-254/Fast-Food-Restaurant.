@@ -95,10 +95,11 @@ div.img-container > img{
 }
 
 .about{
-    border: 2px solid red;
     height: 500px;
     width: 900px;
     text-align: center;
+    background-color: goldenrod;
+    border-radius: 30px;
 }
 
 div.about p {
@@ -212,7 +213,7 @@ div.reservations button{
 
 
 .quote-container-one > p{
-    background-color: whitesmoke;
+    background-color: goldenrod;
     height: 450px;
     width: 450px;
     color: black;
@@ -230,7 +231,7 @@ div.reservations button{
 }
 
 .quote-container-two > p{
-    background-color: whitesmoke;
+    background-color: goldenrod;
     height: 450px;
     width: 450px;
     color: black;
@@ -248,7 +249,7 @@ div.reservations button{
 }
 
 .quote-container-three > p{
-    background-color: whitesmoke;
+    background-color: goldenrod;
     height: 450px;
     width: 450px;
     color: black;
@@ -266,10 +267,10 @@ div.reservations button{
 }
 
 footer{
-    color:#EDFDFB;
+    color:black;
     padding-top: 50px;
     border-top: 2px solid whitesmoke;
-    background-color: whitesmoke;
+    background-color: goldenrod;
     height: auto;
     width: auto;
 }
