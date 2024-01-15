@@ -76,6 +76,24 @@ div.info-min > h1 {
     color: goldenrod;
 }
 
+.about-two{
+    height: 200px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+
+div.about-two h1 {
+    height: 200px;
+    width: auto;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: grey;
+}
+
 
 .img-container{
     display: grid;
