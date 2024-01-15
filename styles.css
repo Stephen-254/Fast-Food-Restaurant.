@@ -50,8 +50,7 @@ a{
 
 .info-container{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     padding-top: 8%;
     padding-left: 10%;
@@ -96,16 +95,12 @@ div.about-two h1 {
 
 
 .img-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
+    height: 700px;
+    width:600px;
     
 }
 
 div.img-container > img{
-    height: auto;
-    width: 300px;
     border-radius: 30px;
     cursor: pointer;
 }
@@ -161,11 +156,13 @@ div.about-two h1{
 div.menu-images  img {
     border-radius: 60px;
     box-shadow: 30px whitesmoke;
+    filter: grayscale(100%);
 }
 
 div.menu-images  img:hover{
     transform: scale(1.1);
     cursor: pointer;
+    filter: grayscale(0%);
 }
 
 div.menu-images h1 {
