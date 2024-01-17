@@ -9,3 +9,4 @@ As I was making this project, I encountered the following challenges:
 3. How to revert texts in CSS Animations.
 4. UI and Ux.
 5. Responsive Designs.
+6. DOM Manipulation.
