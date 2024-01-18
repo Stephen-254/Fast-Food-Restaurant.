@@ -10,3 +10,5 @@ As I was making this project, I encountered the following challenges:
 4. UI and Ux.
 5. Responsive Designs.
 6. DOM Manipulation.
+
+I found this website, https://uicolors.app/create, its great for color generation.
