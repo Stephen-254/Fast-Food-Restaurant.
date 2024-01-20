@@ -288,10 +288,19 @@ div.reservations button{
 footer{
     color:black;
     padding-top: 50px;
-    border-top: 2px solid whitesmoke;
     background-color: goldenrod;
+}
+
+#contacts{
+    display: block;
     height: auto;
-    width: auto;
+    width: 500px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+.social-icons{
+    padding-top: 40px;
 }
 
 @keyframes rotate {
