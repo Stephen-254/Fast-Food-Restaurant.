@@ -69,6 +69,15 @@ a{
     height: auto;
 }
 
+@media  screen and (min-width: 350px) {
+    .info-min{
+        font-size: 60px;
+        width: auto;
+        color: #EDFDFB;
+        height: auto;
+    }
+}
+
 
 div.info-min > h1 {
     animation-name: rotate;
