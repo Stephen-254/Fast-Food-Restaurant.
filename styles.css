@@ -1,6 +1,4 @@
 *{
-    padding: 0;
-    border: 0;
     box-sizing: border-box;
     font-family: Antipasto Pro;
     color: #EDFDFB;
@@ -11,14 +9,10 @@
 body{
     background-color: #065673;
     scroll-behavior: smooth;
-    overflow-x: hidden;
-    height: 100vh;
-    width: 100vw;
 }
 
 #section-one{
-    height: 100%;
-    overflow: hidden;
+    
 }
 
 .nav-bar{
@@ -27,6 +21,7 @@ body{
     background-color: #003951;
     border-radius: 20px;
     color: #EDFDFB;
+    min-width: 320px;
 }
 
 ul{
@@ -66,17 +61,9 @@ a{
     font-size: 60px;
     width: auto;
     color: #EDFDFB;
-    height: auto;
+   
 }
 
-@media  screen and (min-width: 350px) {
-    .info-min{
-        font-size: 60px;
-        width: auto;
-        color: #EDFDFB;
-        height: auto;
-    }
-}
 
 
 div.info-min > h1 {
@@ -90,8 +77,6 @@ div.info-min > h1 {
 }
 
 .about-two{
-    height: 200px;
-    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,8 +85,6 @@ div.info-min > h1 {
 }
 
 div.about-two h1 {
-    height: 200px;
-    width: auto;
     font-size: 40px;
     font-family: sans-serif;
     color: grey;
@@ -109,16 +92,13 @@ div.about-two h1 {
 
 
 .img-container{
-    height: 900px;
-    width: 900px;
+    
     
 }
 
 div.img-container > img{
     border-radius: 30px;
     cursor: pointer;
-    height: 900px;
-    width: 900px;
 }
 
 .about-container{
@@ -129,8 +109,6 @@ div.img-container > img{
 }
 
 .about{
-    height: 500px;
-    width: 900px;
     text-align: center;
     background-color: #003951;
     border-radius: 30px;
@@ -251,8 +229,8 @@ div.reservations button{
 
 .quote-container-one > p{
     background-color: #003951;
-    height: 450px;
-    width: 450px;
+    min-height: 450px;
+    min-width: 450px;
     color: black;
     font-size: 25px;
     text-align: center;
@@ -269,8 +247,8 @@ div.reservations button{
 
 .quote-container-two > p{
     background-color: #003951;
-    height: 450px;
-    width: 450px;
+    min-height: 450px;
+    min-width: 450px;
     color: black;
     font-size: 25px;
     text-align: center;
@@ -287,8 +265,8 @@ div.reservations button{
 
 .quote-container-three > p{
     background-color:#003951;
-    height: 450px;
-    width: 450px;
+    min-height: 450px;
+    min-width: 450px;
     color: black;
     font-size: 25px;
     text-align: center;
@@ -311,8 +289,6 @@ footer{
 
 #contacts{
     display: block;
-    height: auto;
-    width: 500px;
     border: 2px solid black;
     font-size: 25px;
 }
