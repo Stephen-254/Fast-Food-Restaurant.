@@ -97,6 +97,9 @@ div.about-two h1 {
 }
 
 div.img-container > img{
+    display: block;
+    max-width: 100%;
+    min-height: 100%;
     border-radius: 30px;
     cursor: pointer;
 }
