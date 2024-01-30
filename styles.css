@@ -1,4 +1,4 @@
-*{
+{
     box-sizing: border-box;
     font-family: Antipasto Pro;
     color: #EDFDFB;
@@ -7,8 +7,11 @@
 
 
 body{
+    overflow-x: hidden;
     background-color: #065673;
     scroll-behavior: smooth;
+    height: 100vh;
+    max-width: 320px;
 }
 
 #section-one{
@@ -22,11 +25,13 @@ body{
     border-radius: 20px;
     color: #EDFDFB;
     min-width: 320px;
+    
 }
 
 ul{
     display: flex;
     list-style-type: none;
+    width: 200px;
 }
 
 li{
@@ -308,7 +313,7 @@ footer{
         transform: translateX(0);
     }
 }
-@keyframes header {
+@keyframes header  {
     0% {
         transform: scale(1);
     }
