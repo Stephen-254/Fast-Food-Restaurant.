@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: goldenrod;
+    max-height: 100px;
+}
+
+div.list-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div li{
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
