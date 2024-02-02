@@ -1,23 +1,40 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color: goldenrod;
-    max-height: 100px;
-}
-
-div.list-items{
+    background-color: #daa520;
+  }
+  
+  div.list-items {
     display: flex;
     justify-content: space-evenly;
-}
-
-div li{
+  }
+  
+  li {
     display: flex;
-    flex-wrap: wrap;
     text-transform: uppercase;
     list-style-type: none;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
+    padding-right: 10px;
+  }
+  
+  @media screen and (max-width: 320px) {
+    nav {
+      display: grid;
+      grid-template-columns: 0.5fr;
+      grid-template-rows: 0.5fr;
+    }
+  
+    div.list-items {
+      display: block;
+    }
+  
+    li {
+      padding-top: 10px;
+    }
+  
+    div.list-items:hover li {
+      transform: scale(1.2);
+    }
+  }
+  
