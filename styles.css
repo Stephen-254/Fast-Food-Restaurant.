@@ -27,14 +27,41 @@ nav {
   
     div.list-items {
       display: block;
+      padding-left: 10px;
     }
-  
-    li {
-      padding-top: 10px;
+
+   #logo, li{
+        padding-top: 10px;
     }
-  
+
     div.list-items:hover li {
       transform: scale(1.2);
     }
   }
+
+  section{
+    height: 50vh;
+    width: 100vw;
+  }
+
+  img{
+    display: block;
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  /* Add this CSS to your existing styles.css file */
+
+.image-slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  max-height: 900px; /* Set the desired height for your banner */
+}
+
+.image-slider img {
+  width: 100%;
+  height: auto;
+}
+
   
