@@ -51,9 +51,11 @@ nav {
     div.list-items:hover li {
       transform: scale(1.2);
     }
+    .intro-container h1{
+     font-size: 20px;
+    }
   }
   
-
   .image-container img {
     height: 100%;
     width: 100%;
@@ -64,10 +66,13 @@ nav {
   }
   .intro-container{
     position: absolute;
-    top: 39%;
-    left: 30%;
-    font-size: 40px;
+    top: 50%;
+    left: 25%;
   }
+
+
+  /*
+    
 
   
 
