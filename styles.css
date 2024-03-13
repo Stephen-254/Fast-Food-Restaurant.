@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+.list-items{
+  display: flex;
+}
+
+li{
+  list-style-type: none;
+  padding-left: 30px;
+}
