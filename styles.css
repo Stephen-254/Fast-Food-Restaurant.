@@ -5,20 +5,91 @@
   color: black;
 }
 
+body{
+  background-color: gold;
+  height: 100vh;
+  width: 100vw;
+}
+
+#main-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 nav{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: gold;
+  min-width: 600px;
+  min-height: 100px;
+}
+
+header{
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
 }
 
 .list-items{
   display: flex;
+  padding-left: 20em;
 }
 
 li{
   list-style-type: none;
   padding-left: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+  text-decoration: none;
+}
+
+#intro{
+  width: 100%;
+  overflow-y: hidden;
+}
+
+#intro > img{
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+}
+
+.introduction{
+  position: absolute;
+  top: 300px;
+  right: 100px;
+  left: 300px;
+}
+
+.introduction > h1,p{
+  color: whitesmoke;
+}
+
+#qualities{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 50px;
+  place-items: center;
+}
+
+#qualities > h1{
+  text-align: center;
+}
+
+#qualities > h1 img{
+  height: 100px;
+  text-align: center;
 }
