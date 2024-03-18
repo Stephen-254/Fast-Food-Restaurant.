@@ -5,10 +5,14 @@
   color: black;
 }
 
-body{
-  background-color: wheat;
+html{
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
+}
+
+body{
+  background-color: #80F5AC;
 }
 
 #main-nav{
@@ -23,7 +27,7 @@ nav{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: gold;
+  background-color: #80F5AC;
   min-width: 600px;
   min-height: 100px;
 }
@@ -55,11 +59,29 @@ a{
 }
 
 #intro{
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3DE67E;
+  min-height: 50rem;
+}
+
+.introduction{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  width: 900px;
+  height: 30em;
+}
+
+.introduction > h1{
+  font-size: 50px;
 }
 
 .introduction > h1,p{
   color: whitesmoke;
+  font-size: 30px;
 }
 
 #qualities{
