@@ -2,7 +2,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: black;
 }
 
 html{
@@ -85,18 +84,48 @@ a{
 }
 
 #qualities{
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-top: 50px;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-#qualities > h1{
-  text-align: center;
-}
 
-#qualities > h1 img{
+
+#qualities img {
   height: 100px;
+  width: 100px;
+}
+
+#qualities div h1{
+  font-size: 20px;
+  margin-right: 50px;
   text-align: center;
 }
+
+#popular-menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#popular-menu img {
+  height: 200px;
+  width: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+#popular-menu h1 {
+  margin-right: 50px;
+  text-align: center;
+  max-width: 200px;
+}
+
+#popular-menu button{
+  width: 200px;
+  min-height: 30px;
+  border-radius: 14px;
+}
+
