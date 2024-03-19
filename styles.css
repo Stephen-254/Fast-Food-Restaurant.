@@ -127,5 +127,26 @@ a{
   width: 200px;
   min-height: 30px;
   border-radius: 14px;
+  border: 0;
 }
+
+.category-buttons{
+  margin-top: 30px;
+  margin-left: 20%;
+}
+
+div.category-buttons button{
+  height: 50px;
+  width:100px;
+  border: 0;
+  border-radius: 50px;
+}
+
+.burger{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
+}
+
+
 
