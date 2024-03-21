@@ -142,11 +142,19 @@ div.category-buttons button{
   border-radius: 50px;
 }
 
-.burger{
+.burger, .pizza, .drinks, .taco, .sandwich{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.5fr 0.5fr;
+  gap: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
 }
 
+.header-menu li {
+  text-transform: capitalize;
+}
 
 
