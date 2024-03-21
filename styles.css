@@ -157,4 +157,55 @@ div.category-buttons button{
   text-transform: capitalize;
 }
 
+.review{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.review  img{
+  margin-left: 50px;
+}
+
+.discounts{
+  max-width: 350px;
+  padding-left: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  padding-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#testimonials, #staff{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#book{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  margin-left: 30px;
+  padding-bottom: 50px;
+}
+
+
 
