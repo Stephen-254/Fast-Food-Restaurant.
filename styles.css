@@ -2,6 +2,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
+  font-weight: 700;
 }
 
 html{
@@ -11,7 +13,7 @@ html{
 }
 
 body{
-  background-color: #80F5AC;
+  background-color: whitesmoke;
 }
 
 #main-nav{
@@ -26,13 +28,12 @@ nav{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #80F5AC;
+  background-color: whitesmoke;
   min-width: 600px;
   min-height: 100px;
 }
 
 header{
-  font-family: "Madimi One", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
@@ -40,20 +41,20 @@ header{
 
 .list-items{
   display: flex;
-  padding-left: 20em;
+  margin-left: 10rem;
 }
 
 li{
   list-style-type: none;
-  padding-left: 30px;
+  padding-left: 50px;
   font-size: 20px;
   text-transform: uppercase;
-  font-family: "Libre Baskerville", serif;
   font-weight: 400;
   font-style: normal;
 }
 
 a{
+  color: black;
   text-decoration: none;
 }
 
@@ -61,7 +62,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #3DE67E;
+  background: #558166;
   min-height: 50rem;
 }
 
@@ -153,7 +154,7 @@ div.category-buttons button{
   padding-left: 50px;
 }
 
-.header-menu li {
+.header-menu li, .header-pizza li, .drinks-header li, .taco-header li, .sandwich-header li{
   text-transform: capitalize;
 }
 
