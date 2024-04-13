@@ -15,61 +15,67 @@ body{
   background-color: whitesmoke;
 }
 
-nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: whitesmoke;
-  height: 80px;
-}
-
-.header{
-  padding-left: 30px;
-}
-
-.list-items{
-  display: flex;
-  padding-right: 50px;
-}
-
-li{
-  list-style-type: none;
-  text-align: center;
-}
-
-a{
-  list-style-type: none;
-  color: black;
-  text-decoration: none;
-  margin-left: 30px;
-}
-
-#intro{
+main{
   display: flex;
   align-items: center;
   justify-content: center;
-  max-height: 60rem;
+  min-height: 90rem;
+  background-image: url(Images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.nav-bar{
+  position: absolute;
+  top: 20px;
+  right: 70px;
+}
+
+
+
+a{
+  margin-right: 30px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
 }
 
 main img {
   width: 100%;
   position: relative;
-  object-fit: contain;
 }
 
 .header2{
   position: absolute;
-  top: 50%;
+  top: 30%;
 }
 
 div.header2 h1{
+  color: gold;
+  font-size: 7rem;
+  text-shadow: 5px 5px black;
+}
+
+div.header2 h2{
   color: black;
   font-size: 7rem;
+  margin-top: 20px;
+}
+
+#span{
+  background-color: #76fa6d;
 }
 
 div.header2  p {
   font-size: 3rem;
+  color: black;
+  margin-top: 20px;
+}
+
+span{
+  background-color: #3cf22f;
 }
 
 div.header2 button{
