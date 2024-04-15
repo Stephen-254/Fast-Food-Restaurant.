@@ -175,6 +175,11 @@ div.category-buttons button:hover{
   background-color: #98ff90;
 }
 
+#foods{
+  background-color: black;
+  color: white;
+}
+
 .burger, .pizza, .drinks, .taco, .sandwich{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -201,6 +206,8 @@ div.category-buttons button:hover{
   width: 400px;
   box-shadow: 10px 10px 10px #c2ca9b;
   padding-left: 50px;
+  background-color: whitesmoke;
+  color: black;
 }
 .header-menu li, .header-pizza li, .drinks-header li, .taco-header li, .sandwich-header li{
   text-transform: capitalize;
