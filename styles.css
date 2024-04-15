@@ -196,8 +196,11 @@ div.category-buttons button:hover{
   font-weight: 200;
 }
 
-.header-menu{
-  width: 350px;
+.header-menu, .header-pizza, .drinks-header, .taco-header, .sandwich-header{
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 10px 10px 10px #c2ca9b;
+  padding-left: 50px;
 }
 .header-menu li, .header-pizza li, .drinks-header li, .taco-header li, .sandwich-header li{
   text-transform: capitalize;
