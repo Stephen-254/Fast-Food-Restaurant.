@@ -178,6 +178,7 @@ div.category-buttons button:hover{
 #foods{
   background-color: black;
   color: white;
+  background-image: url(Images/amin-ramezani-oRSFIpnitRk-unsplash.jpg);
 }
 
 .burger, .pizza, .drinks, .taco, .sandwich{
@@ -224,18 +225,30 @@ section.review  img{
 }
 
 .discounts{
-  max-width: 350px;
+  max-width: 100%;
+  height: 140px;
   padding-left: 50px;
+  background-color: #3cf22f;
+  text-align: center;
+  border-radius: 10px;
 }
 
 form{
   display: flex;
   flex-direction: column;
+  text-align: center;
+  justify-content: center;
   max-width: 300px;
   padding-left: 30px;
   margin-top: 50px;
   margin-bottom: 50px;
-  text-align: center;
+}
+
+
+form input, button, select, option{
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 15px;
 }
 
 #testimonials, #staff{
