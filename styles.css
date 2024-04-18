@@ -251,6 +251,21 @@ form input, button, select, option{
   margin-left: 15px;
 }
 
+.bookings{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookings input{
+  height: 40px;
+  margin-top: 20px;
+}
+
+.bookings button{
+  width: 150px;
+}
+
 #testimonials, #staff{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
