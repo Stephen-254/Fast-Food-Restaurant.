@@ -266,13 +266,45 @@ form input, button, select, option{
   width: 150px;
 }
 
-#testimonials, #staff{
+#testimonials{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+#testimonials div{
+  max-width: 400px;
+  box-shadow: 2px 2px 20px #76fa6d;
+  padding: 30px;
+  margin-right: 100px;
+}
+
+#staff{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  gap: 50px;
-  text-align: center;
-  margin-bottom: 50px;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#staff div{
+  max-width: 400px;
+  box-shadow: 2px 2px 20px #76fa6d;
+  margin-left: 30px;
+}
+
+.sponsors{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.sponsors img{
+  max-height: 100px;
+  max-width: 200px;
+  margin-right: 30px;
 }
 
 #book{
@@ -285,7 +317,7 @@ form input, button, select, option{
 
 footer{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   margin-top: 80px;
   margin-left: 30px;
   padding-bottom: 50px;
