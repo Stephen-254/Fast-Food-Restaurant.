@@ -228,7 +228,7 @@ section.review  img{
   max-width: 100%;
   height: 140px;
   padding-left: 50px;
-  background-color: #3cf22f;
+  background-color: gold;
   text-align: center;
   border-radius: 10px;
 }
@@ -251,6 +251,22 @@ form input, button, select, option{
   margin-left: 15px;
 }
 
+form input, select{
+  border-radius: 20px;
+  padding-left: 14px;
+  border: 0;
+}
+
+form button{
+  border: 0;
+  border-radius: 13px;
+  background-color: gold;
+}
+
+#book header{
+  text-align: center;
+}
+
 .bookings{
   display: flex;
   flex-direction: column;
@@ -260,10 +276,17 @@ form input, button, select, option{
 .bookings input{
   height: 40px;
   margin-top: 20px;
+  width: 300px;
+  border-radius: 20px;
+  padding-left: 20px;
+  border: 0;
 }
 
 .bookings button{
-  width: 150px;
+  width: 200px;
+  border-radius: 15px;
+  background-color: gold;
+  border: 0;
 }
 
 #testimonials{
