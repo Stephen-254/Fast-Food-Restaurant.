@@ -176,9 +176,9 @@ div.category-buttons button:hover{
 }
 
 #foods{
-  background-color: black;
+  background-color: gold;
   color: white;
-  background-image: url(Images/amin-ramezani-oRSFIpnitRk-unsplash.jpg);
+  margin: 50px;
 }
 
 .burger, .pizza, .drinks, .taco, .sandwich{
